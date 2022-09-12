@@ -1,0 +1,1 @@
+Hoje eu aprendi a usar os comandos "git push", "git pull", a estruturar meu repositório, a editar meus códigos, tanto no VSCode quanto no GitHub, a mergear dentro do GitHub via Pull Request, a baixar os repositórios de lá à partir do "git clone" também.
