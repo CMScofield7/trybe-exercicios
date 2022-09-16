@@ -1,0 +1,53 @@
+<!DOCTYPE html> <!-- !DOCTYPE é a informação do tipo de documento que o navegador irá ler, no caso o HTML -->
+<html lang="pt-br"> <!-- "html" é a tag que iremos usar pra escrever em HTML e também dizer o idioma que iremos escrever-->
+  <head> <!-- cabeçalho da página-->
+    <meta charset="UTF-8"> <!-- meta são os metadados que irão gerir a página; charset é o tipo de caractere que vamos usar na página-->
+    <title>HTML</title> <!-- title é o título da página-->
+    <style> /* style é a tag para o CSS, onde podemos estilizar a página */
+        h1 {
+            color: orange; /* color é a cor da fonte */
+            font-family: sans-serif; /* font-family é onde você troca a fonte */
+            font-style: italic; /* font-style define o estilo da fone */
+        }
+
+        #lista-amarela { /* "# (sustenido)" significa que irá receber o conteudo de uma id */
+            color: yellow;
+        }
+
+        #lista-vermelha {
+            color: red;
+        }
+
+        #lista-marrom {
+            color: brown;
+        }
+
+        .classe-roxa { /* ". (ponto)" significa que irá receber o conteudo de uma classe (class) */
+            background-color: purple;
+            line-height: 40px; /* line-height define o espaçamento entre as linhas */
+            text-align: left; /* text-align define o alinhamento do texto */
+            text-decoration: none; /* text-decoration define a decoração do texto */
+        }
+
+        p {
+            font-weight: 600; /* indica o peso da fonte, no exemplo é o negrito */
+            font-size: 3em; /* font-size é o tamanho da fonte */
+        }
+        }
+
+        body {
+            font-size: 16px; /* font-size é o tamanho da fonte */
+        }
+
+    </style>
+  </head>
+  <body> <!-- Body é o corpo da página, é aqui onde estruturamos em HTML -->
+    <h1>Exercícios 3.2</h1> <!--Tamanho h1-->
+    <p class="classe-roxa">Qual é a sua cor favorita?</p> <!-- p = Parágrafo--> <!-- class = um id pra varias tags ao mesmo tempo-->
+    <ul class="classe-roxa"> <!--ul = unordered list, ou lista não ordenada, só bolinhas-->
+      <li id="lista-amarela">Amarelo</li> <!-- li = item da lista--> <!-- id = um nome único pra sua tag -->
+      <li id="lista-vermelha">Vermelho</li>
+      <li id="lista-marrom">Marrom</li>
+    </ul>
+  </body>
+</html>
