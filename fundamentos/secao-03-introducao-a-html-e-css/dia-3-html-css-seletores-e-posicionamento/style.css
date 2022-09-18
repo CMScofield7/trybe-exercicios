@@ -32,3 +32,6 @@
   }
 
   /* No CSS também existe a propriedade "overflow" (de transbordar, transbordamento). A propriedade overflow especifica quando o conteúdo de um elemento de nível de bloco (block) deve ser cortado, exibido com barras de rolagem ou se transborda do elemento. */
+
+  /* A pseudo-classe ":hover" permite que aconteça alguma coisa caso eu posicione o mouse em cima na página. 
+     ":active" permite que algo aconteça se eu clicar nesse algo com o mouse.*/
