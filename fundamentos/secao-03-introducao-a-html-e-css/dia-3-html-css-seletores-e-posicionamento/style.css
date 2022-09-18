@@ -1,19 +1,20 @@
 .caixa {
-    color: white;
-    display: inline-block;
+    color: white; /* cor do texto */
+    display: inline-block; 
     line-height: 50px;
     text-align: center;
     vertical-align: top;
   }
   
   .width-and-height {
-    height: 50px;
-    width: 50px;
+    height: 50px; /*altura do conteudo*/
+    width: 50px; /* largura do conteudo*/
+    /* Além de um elemento fixado, eu posso também usar de forma dinâmica, usando o valor "%". Height e width desconsideram a borda (border), preenchimento (padding) e as margens (margin) */
   }
   
   /* insira na classe abaixo um padding de 20px para aplicá-lo aos itens B, C e D */
   .padding {
-    padding: 20px;
+    padding: 20px; /* Pode ser traduzido como "enchimento" e controla a quantidade de espaço vazio entre o conteúdo em si e a borda da caixa. */
   }
   
   /* insira na classe abaixo uma margem de 30px para aplicá-la aos itens C e D */
@@ -23,5 +24,11 @@
   
   /* insira na classe abaixo uma borda com valor '5px solid black' para aplicá-la ao item D */
   .border {
-    border: 5px solid black;
+    border: 5px solid black; /* É a borda da caixa, pura e simples. A propriedade border em si é considerada uma shorthand, ou seja, ela serve como um atalho para controlar um conjunto de outras propriedades que poderiam ser definidas individualmente, nesse caso border-width, border-style, e border-color!
+
+    --border-width: também pode controlar a largura da borda e o seu valor inicial é medium.
+    --border-style: essa propriedade controla o estilo da linha e tem como valor inicial none. Por isso que você não consegue ver nenhuma borda se não alterar essa propriedade!
+    ==border-color: essa propriedade controla a cor da borda, e tem como valor inicial currentcolor. Esse valor define a cor da borda como sendo o mesmo do elemento, então na maioria dos casos é desejável modificá-la. */
   }
+
+  /* No CSS também existe a propriedade "overflow" (de transbordar, transbordamento). A propriedade overflow especifica quando o conteúdo de um elemento de nível de bloco (block) deve ser cortado, exibido com barras de rolagem ou se transborda do elemento. */
