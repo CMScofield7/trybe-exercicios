@@ -4,11 +4,11 @@ ol {
     background-color: yellow;
 }
 
-ul li:nth-child(even) {
+ol li:nth-child(even) {
     color: green;
 }
 
-ul li:nth-child(odd) {
+ol li:nth-child(odd) {
     text-transform: uppercase;
 }
 
